@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #1f2937;
+  background: #f4f6f8;
+}
+
+.app {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 20px 40px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  margin: 0 0 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.panel {
+  margin-top: 16px;
+  padding: 18px;
+  background: #ffffff;
+  border: 1px solid #d9e0e8;
+  border-radius: 8px;
+}
+
+.game-area {
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed #b8c2cc;
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.status,
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #8ea0b3;
+  border-radius: 6px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #eef3f8;
+}
