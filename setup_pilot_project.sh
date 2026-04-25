@@ -31,3 +31,4 @@ echo "Next:"
 echo "1. Open this folder in Codex: $TARGET_DIR"
 echo "2. Start with:"
 echo "   你好，我的编号是 ${PARTICIPANT_ID}，现在我要开始今天的任务了。请先阅读当前项目文件夹，告诉我里面有哪些文件。"
+

@@ -12,3 +12,4 @@ resetBtn.addEventListener("click", () => {
   statusText.textContent = "未开始";
   gamePrompt.textContent = "请把这里改成你的核心玩法区域。";
 });
+

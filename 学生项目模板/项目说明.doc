@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pilot Study 项目文件夹说明</title>
+  <style>
+    body { font-family: "Microsoft YaHei", Arial, sans-serif; line-height: 1.55; color: #111827; }
+    h1 { font-size: 22pt; margin-bottom: 14pt; }
+    h2 { font-size: 15pt; margin-top: 18pt; }
+    p, li { font-size: 11pt; }
+    code { font-family: Consolas, monospace; background: #f3f4f6; padding: 1px 3px; }
+    pre { font-family: Consolas, monospace; background: #f6f8fa; padding: 10px; white-space: pre-wrap; border: 1px solid #d0d7de; }
+  </style>
+</head>
+<body>
+<h1>Pilot Study 项目文件夹说明</h1>
+
+<p>这是本次 Pilot Study 的项目文件夹。请在这个文件夹里完成任务，任务结束后保留整个文件夹。</p>
+
+<h2>文件夹说明</h2>
+<pre>P01_任务文件夹/
+├── 任务材料/             # 任务书、用户访谈材料、阶段输出表
+├── 网页原型/             # 你要制作的网页小游戏
+├── Codex对话记录/        # 研究者后续整理 Codex 对话
+└── 项目说明.doc</pre>
+
+<h2>你主要要做什么</h2>
+<ol>
+  <li>阅读 <code>任务材料/02_学生任务书.doc</code>。</li>
+  <li>阅读 <code>任务材料/03_用户访谈材料.doc</code>。</li>
+  <li>在 <code>任务材料/04_阶段输出表.xls</code> 中填写五个阶段的结果。</li>
+  <li>如有需要，阅读 <code>任务材料/05_Codex项目操作卡.doc</code>。</li>
+  <li>在 <code>网页原型/</code> 中完成一个简单能玩的网页原型。</li>
+  <li>任务结束后保留整个文件夹。</li>
+</ol>
+
+<p>你不需要一开始看懂 <code>网页原型</code> 里的技术文件。可以让 Codex 帮你阅读、修改和解释。制作出的网页小游戏会保存在 <code>网页原型</code> 文件夹里。</p>
+
+<p>请不要删除 <code>任务材料/</code> 或 <code>Codex对话记录/</code>。</p>
+</body>
+</html>
