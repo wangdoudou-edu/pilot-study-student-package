@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Codex 项目操作卡</title>
+  <style>
+    body { font-family: "Microsoft YaHei", Arial, sans-serif; line-height: 1.55; color: #111827; }
+    h1 { font-size: 22pt; margin-bottom: 14pt; }
+    h2 { font-size: 15pt; margin-top: 18pt; }
+    h3 { font-size: 12.5pt; margin-top: 14pt; }
+    p, li { font-size: 11pt; }
+    code { font-family: Consolas, monospace; background: #f3f4f6; padding: 1px 3px; }
+    pre { font-family: Consolas, monospace; background: #f6f8fa; padding: 10px; white-space: pre-wrap; border: 1px solid #d0d7de; }
+  </style>
+</head>
+<body>
+<h1>Codex 项目操作卡</h1>
+
+<p>今天你会在一个独立项目文件夹里完成任务。你可以直接用自然语言和 Codex 沟通，不需要会代码，也不需要记特殊指令。</p>
+
+<h2>1. 项目文件夹里有什么</h2>
+
+<pre>P01_pilot_project/
+├── 任务材料/             # 任务书、用户访谈材料、阶段输出表
+├── 网页原型/             # 你要做出来的小游戏网页
+├── Codex对话记录/        # 研究者后续整理 Codex 对话
+└── README.md</pre>
+
+<p>你主要会看到：</p>
+
+<ul>
+<li><code>任务材料</code>：阅读任务、查看访谈材料、填写阶段输出表。</li>
+<li><code>网页原型</code>：保存你最后做出来的网页小游戏。你不需要一开始看懂里面的文件。只要你和 Codex 讨论游戏怎么做，并请它帮你制作网页原型，相关文件会保存在这里。</li>
+<li><code>Codex对话记录</code>：这个文件夹主要给研究者后续整理数据用，你不用操作。</li>
+</ul>
+
+<h2>2. 打开 Codex</h2>
+
+<p>研究者会帮你确认 Codex 已经在这个项目文件夹中打开。你只需要确认自己看到的是本次任务的项目文件夹。</p>
+
+<h2>3. 任务开始时的第一句话</h2>
+
+<p>请在第一句话里写上你的参与者编号，并用自然语言说明任务开始。例如：</p>
+
+<pre>你好，我的编号是 P01，现在我要开始今天的任务了。请先阅读当前项目文件夹，告诉我里面有哪些文件。</pre>
+
+<p>任务结束时，请也用自然语言说一句：</p>
+
+<pre>今天的任务到此为止。请不要再修改文件，请帮我简单总结一下你今天帮我做过哪些事情。</pre>
+
+<h2>4. 使用时注意</h2>
+
+<ul>
+<li>可以用自然语言告诉 Codex 你想做什么。</li>
+<li>可以让 Codex 帮你阅读材料、整理想法、制作网页原型、检查问题。</li>
+<li>当你请 Codex 帮你制作或修改网页原型时，它会把改动保存到 <code>网页原型</code> 文件夹里。你不需要自己手动编辑这些技术文件。</li>
+<li>Codex 做完后，请你自己看一看结果是否符合你的想法。</li>
+<li>请不要删除项目文件夹里的材料。</li>
+</ul>
+
+<p>今天不要求你写完美提示词。你可以按照自己平时使用 Codex 的方式完成任务。</p>
+
+<h2>5. 如果你不知道怎么说</h2>
+
+<p>可以直接说你的真实想法。例如：</p>
+
+<pre>我现在要根据访谈材料做用户需求分析，但我不知道怎么开始。请帮我一起看材料。</pre>
+
+<p>或者：</p>
+
+<pre>我想做一个适合课间 3 分钟玩的小游戏，请帮我把现在的想法做成一个简单网页原型。</pre>
+
+<p>Codex 可能会修改 <code>网页原型</code> 里的文件，也可能先和你讨论方案。你只需要根据自己的判断继续推进。</p>
+</body>
+</html>
