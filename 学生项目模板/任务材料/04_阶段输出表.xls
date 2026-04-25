@@ -4,7 +4,7 @@
   <Worksheet ss:Name="阶段输出表">
     <Table>
       <Row>
-        <Cell><Data ss:Type="String">Pilot Study 阶段输出表</Data></Cell>
+        <Cell><Data ss:Type="String">设计任务阶段输出表</Data></Cell>
         <Cell/>
         <Cell/>
         <Cell/>
@@ -30,10 +30,10 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我从访谈材料中提炼出的 3 个用户需求</Data></Cell>
-        <Cell><Data ss:Type="String">需求 1</Data></Cell>
-        <Cell><Data ss:Type="String">需求 2</Data></Cell>
-        <Cell><Data ss:Type="String">需求 3</Data></Cell>
+        <Cell><Data ss:Type="String">用户需求摘要</Data></Cell>
+        <Cell><Data ss:Type="String">我理解的用户是谁</Data></Cell>
+        <Cell><Data ss:Type="String">他们需要什么</Data></Cell>
+        <Cell><Data ss:Type="String">为什么</Data></Cell>
       </Row>
       <Row>
         <Cell><Data ss:Type="String">填写内容</Data></Cell>
@@ -42,9 +42,9 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">这些用户最在意的 2 件事</Data></Cell>
-        <Cell><Data ss:Type="String">在意 1</Data></Cell>
-        <Cell><Data ss:Type="String">在意 2</Data></Cell>
+        <Cell><Data ss:Type="String">对游戏设计的启发</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
+        <Cell/>
         <Cell/>
       </Row>
       <Row>
@@ -54,8 +54,8 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我现在还不确定的 1 个问题</Data></Cell>
-        <Cell><Data ss:Type="String">不确定点</Data></Cell>
+        <Cell><Data ss:Type="String">仍不确定的问题</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>
@@ -67,7 +67,7 @@
       </Row>
       <Row>
         <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
-        <Cell><Data ss:Type="String">如果本阶段使用了 Codex，请写一两句话；如果没用，可以写“未使用”。</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>
@@ -77,6 +77,7 @@
         <Cell/>
         <Cell/>
       </Row>
+      <Row/>
       <Row>
         <Cell><Data ss:Type="String">2. 设计目标确定</Data></Cell>
         <Cell/>
@@ -84,10 +85,16 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">用一句话写清楚你的游戏目标</Data></Cell>
-        <Cell><Data ss:Type="String">这个游戏要帮助谁</Data></Cell>
-        <Cell><Data ss:Type="String">在什么时候/什么情况下</Data></Cell>
-        <Cell><Data ss:Type="String">获得什么体验</Data></Cell>
+        <Cell><Data ss:Type="String">游戏目标（一句话）</Data></Cell>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">目标说明</Data></Cell>
+        <Cell><Data ss:Type="String">面向谁</Data></Cell>
+        <Cell><Data ss:Type="String">使用场景</Data></Cell>
+        <Cell><Data ss:Type="String">希望带来的体验</Data></Cell>
       </Row>
       <Row>
         <Cell><Data ss:Type="String">填写内容</Data></Cell>
@@ -96,98 +103,8 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">做完后希望达到的 2 个效果</Data></Cell>
-        <Cell><Data ss:Type="String">效果 1</Data></Cell>
-        <Cell><Data ss:Type="String">效果 2</Data></Cell>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">我为什么这样定目标</Data></Cell>
-        <Cell><Data ss:Type="String">理由</Data></Cell>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
-        <Cell><Data ss:Type="String">如果本阶段使用了 Codex，请写一两句话；如果没用，可以写“未使用”。</Data></Cell>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">3. 创意方案生成与选择</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">方案 A</Data></Cell>
-        <Cell><Data ss:Type="String">玩家主要做什么</Data></Cell>
-        <Cell><Data ss:Type="String">游戏如何回应玩家</Data></Cell>
-        <Cell><Data ss:Type="String">为什么适合这个任务</Data></Cell>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">方案 B</Data></Cell>
-        <Cell><Data ss:Type="String">玩家主要做什么</Data></Cell>
-        <Cell><Data ss:Type="String">游戏如何回应玩家</Data></Cell>
-        <Cell><Data ss:Type="String">为什么适合这个任务</Data></Cell>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">方案 C</Data></Cell>
-        <Cell><Data ss:Type="String">玩家主要做什么</Data></Cell>
-        <Cell><Data ss:Type="String">游戏如何回应玩家</Data></Cell>
-        <Cell><Data ss:Type="String">为什么适合这个任务</Data></Cell>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">我最终选择的方向</Data></Cell>
-        <Cell><Data ss:Type="String">选择方向</Data></Cell>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">我选择它的理由</Data></Cell>
-        <Cell><Data ss:Type="String">理由</Data></Cell>
+        <Cell><Data ss:Type="String">这样设定目标的理由</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>
@@ -199,7 +116,7 @@
       </Row>
       <Row>
         <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
-        <Cell><Data ss:Type="String">如果本阶段使用了 Codex，请写一两句话；如果没用，可以写“未使用”。</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>
@@ -209,6 +126,98 @@
         <Cell/>
         <Cell/>
       </Row>
+      <Row/>
+      <Row>
+        <Cell><Data ss:Type="String">3. 游戏策划案撰写</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">游戏名称与一句话概念</Data></Cell>
+        <Cell><Data ss:Type="String">游戏名称</Data></Cell>
+        <Cell><Data ss:Type="String">一句话概念</Data></Cell>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">玩家与使用场景</Data></Cell>
+        <Cell><Data ss:Type="String">玩家</Data></Cell>
+        <Cell><Data ss:Type="String">场景</Data></Cell>
+        <Cell><Data ss:Type="String">单局时长（5 到 10 分钟）</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">核心玩法与主要规则</Data></Cell>
+        <Cell><Data ss:Type="String">玩家主要做什么</Data></Cell>
+        <Cell><Data ss:Type="String">规则</Data></Cell>
+        <Cell><Data ss:Type="String">完成或失败条件</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">操作方式与界面设想</Data></Cell>
+        <Cell><Data ss:Type="String">操作方式</Data></Cell>
+        <Cell><Data ss:Type="String">界面/画面</Data></Cell>
+        <Cell><Data ss:Type="String">声音或安静模式</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">反馈、挑战与再玩理由</Data></Cell>
+        <Cell><Data ss:Type="String">反馈</Data></Cell>
+        <Cell><Data ss:Type="String">挑战</Data></Cell>
+        <Cell><Data ss:Type="String">为什么想再玩</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">低保真原型要优先做出的部分</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row/>
       <Row>
         <Cell><Data ss:Type="String">4. 低保真原型制作</Data></Cell>
         <Cell/>
@@ -216,7 +225,7 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我做出的原型是什么</Data></Cell>
+        <Cell><Data ss:Type="String">实际完成的网页交互游戏原型</Data></Cell>
         <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
@@ -228,7 +237,19 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">玩家如何操作</Data></Cell>
+        <Cell><Data ss:Type="String">与策划案一致或变化的地方</Data></Cell>
+        <Cell><Data ss:Type="String">一致之处</Data></Cell>
+        <Cell><Data ss:Type="String">变化之处</Data></Cell>
+        <Cell><Data ss:Type="String">原因</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">当前可以试玩的内容</Data></Cell>
         <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
@@ -240,8 +261,8 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">游戏如何给玩家反馈</Data></Cell>
-        <Cell><Data ss:Type="String">画面/分数/提示/倒计时/成功失败反馈等</Data></Cell>
+        <Cell><Data ss:Type="String">暂时没有完成或临时处理的内容</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>
@@ -252,10 +273,10 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我最依赖 Codex 的部分</Data></Cell>
-        <Cell><Data ss:Type="String">最依赖它做什么</Data></Cell>
-        <Cell><Data ss:Type="String">为什么这里需要 Codex</Data></Cell>
-        <Cell><Data ss:Type="String">我如何检查它做得对不对</Data></Cell>
+        <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
+        <Cell><Data ss:Type="String">说明</Data></Cell>
+        <Cell/>
+        <Cell/>
       </Row>
       <Row>
         <Cell><Data ss:Type="String">填写内容</Data></Cell>
@@ -263,6 +284,7 @@
         <Cell/>
         <Cell/>
       </Row>
+      <Row/>
       <Row>
         <Cell><Data ss:Type="String">5. 试玩反馈与修正计划</Data></Cell>
         <Cell/>
@@ -270,9 +292,21 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我自己试玩时发现的问题</Data></Cell>
-        <Cell><Data ss:Type="String">问题 1</Data></Cell>
-        <Cell><Data ss:Type="String">问题 2</Data></Cell>
+        <Cell><Data ss:Type="String">试玩方式</Data></Cell>
+        <Cell><Data ss:Type="String">谁试玩</Data></Cell>
+        <Cell><Data ss:Type="String">怎么玩</Data></Cell>
+        <Cell><Data ss:Type="String">记录方式</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">填写内容</Data></Cell>
+        <Cell/>
+        <Cell/>
+        <Cell/>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">试玩中发现的问题或反馈</Data></Cell>
+        <Cell><Data ss:Type="String">问题/反馈</Data></Cell>
+        <Cell><Data ss:Type="String">可能原因</Data></Cell>
         <Cell/>
       </Row>
       <Row>
@@ -282,9 +316,9 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">别人试玩后说了什么/哪里卡住了</Data></Cell>
-        <Cell><Data ss:Type="String">反馈 1</Data></Cell>
-        <Cell><Data ss:Type="String">反馈 2</Data></Cell>
+        <Cell><Data ss:Type="String">下一轮修正计划</Data></Cell>
+        <Cell><Data ss:Type="String">准备调整什么</Data></Cell>
+        <Cell><Data ss:Type="String">为什么</Data></Cell>
         <Cell/>
       </Row>
       <Row>
@@ -294,32 +328,8 @@
         <Cell/>
       </Row>
       <Row>
-        <Cell><Data ss:Type="String">我认为最重要的问题是</Data></Cell>
+        <Cell><Data ss:Type="String">本阶段 Codex 使用小记</Data></Cell>
         <Cell><Data ss:Type="String">说明</Data></Cell>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">如果现在只能先改两处，我会先改</Data></Cell>
-        <Cell><Data ss:Type="String">修改点 1</Data></Cell>
-        <Cell><Data ss:Type="String">修改点 2</Data></Cell>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">填写内容</Data></Cell>
-        <Cell/>
-        <Cell/>
-        <Cell/>
-      </Row>
-      <Row>
-        <Cell><Data ss:Type="String">为什么先改这两个，而不是先改别的</Data></Cell>
-        <Cell><Data ss:Type="String">理由</Data></Cell>
         <Cell/>
         <Cell/>
       </Row>

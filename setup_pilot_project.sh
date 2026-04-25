@@ -10,7 +10,8 @@ fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TEMPLATE_DIR="$SCRIPT_DIR/学生项目模板"
-TARGET_DIR="$SCRIPT_DIR/${PARTICIPANT_ID}_任务文件夹"
+RUNS_DIR="${PILOT_RUNS_DIR:-$HOME/Desktop/AIMind_Pilot_Runs}"
+TARGET_DIR="$RUNS_DIR/${PARTICIPANT_ID}_任务文件夹"
 
 if [[ ! -d "$TEMPLATE_DIR" ]]; then
   echo "Template not found: $TEMPLATE_DIR"
@@ -23,7 +24,8 @@ if [[ -e "$TARGET_DIR" ]]; then
   exit 1
 fi
 
-cp -R "$TEMPLATE_DIR" "$TARGET_DIR"
+mkdir -p "$RUNS_DIR"
+rsync -a --exclude '.DS_Store' "$TEMPLATE_DIR/" "$TARGET_DIR/"
 
 echo "Created: $TARGET_DIR"
 echo ""
@@ -31,4 +33,5 @@ echo "Next:"
 echo "1. Open this folder in Codex: $TARGET_DIR"
 echo "2. Start with:"
 echo "   你好，我的编号是 ${PARTICIPANT_ID}，现在我要开始今天的任务了。请先阅读当前项目文件夹，告诉我里面有哪些文件。"
-
+echo "3. After the student says the task is finished, finalize the session with:"
+echo "   bash \"$SCRIPT_DIR/finalize_pilot_session.sh\" ${PARTICIPANT_ID}"
